@@ -2,7 +2,7 @@
   'use strict';
 
   window.onload = function () {
-    let content = localStorage.getItem("qrCodeMessage") || '';
+    let content = localStorage.getItem("qrCodeMessage");
     $('#qrCodeMessage').val(content);
     $('#qrcode').qrcode(content);
   }
