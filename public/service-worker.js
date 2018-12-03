@@ -19,7 +19,9 @@ var filesToCache = [
   "./service-worker.js",
   "./css",
   "./css/app.css",
-  "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+  "/https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+  "/https://platform.twitter.com/widgets.js",
+  "/https://www.facebook.com/plugins/share_button.php",
 ];
 
 self.addEventListener('install', function (e) {

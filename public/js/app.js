@@ -10,9 +10,14 @@
   $('#buttonGenerate').click(() => {
     console.log('click');
     let message = $('#qrCodeMessage').val();
-    localStorage.setItem("qrCodeMessage", message);
-    $('#qrcode').html('');
-    $('#qrcode').qrcode(message);
+    if (message === '' || null) {
+      alert('Input some text or link first!');
+    } else {
+      localStorage.setItem("qrCodeMessage", message);
+      $('#qrcode').html('');
+      $('#qrcode').qrcode(message);
+    }
+    document.getElementById('qrCodeMessage').value = '';
   });
 
 
