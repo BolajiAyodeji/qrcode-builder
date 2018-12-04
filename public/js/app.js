@@ -11,13 +11,16 @@
     console.log('click');
     let message = $('#qrCodeMessage').val();
     if (message === '' || null) {
-      alert('Input some text or link first!');
-    } else {
+      $(".error").text("Enter some Text or Link?").show();
+      $(".success").text("").reset();
+
+    } else if (message.length > 0) {
+      $(".success").text("QR Code Generated!").show();
+      $(".error").text('').show();
       localStorage.setItem("qrCodeMessage", message);
-      $('#qrcode').html('');
+      $('#qrcode').html('').show();
       $('#qrcode').qrcode(message);
     }
-    document.getElementById('qrCodeMessage').value = '';
   });
 
 

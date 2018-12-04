@@ -30,10 +30,9 @@
   <link rel="apple-touch-icon" href="images/icons/icon-152x152.png" />
   <!-- Windows -->
   <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png" />
-  <meta name="msapplication-TileColor" content="#2F3BA2" />
+  <meta name="msapplication-TileColor" content="#6c757d" />
   <link rel="stylesheet" type="text/css" href="css/app.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous" />
+
   <link rel="manifest" href="./manifest.json" />
   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
@@ -59,20 +58,26 @@
     <div style="text-align: center;" class="container">
       <div class="card">
         <div id="qrcode"></div>
+        <div class="form-group">
+          <button id="" type="button" name="button" class="btn btn-secondary btnDownload">
+            Download QR
+          </button>
+        </div>
       </div>
       <div class="row">
         <form class="col">
           <div class="row">
             <div class="input-field col">
-              <hr /> Enter your message or link for the QR Code Builder
+              <hr /> Enter your message or link here
             </div>
           </div>
           <form>
             <div class="form-group">
-              <input id="qrCodeMessage" type="text" class="form-control" placeholder="Enter text or link here" required />
-              <div class="error" style="color:red;"></div>
+              <input id="qrCodeMessage" type="text" onfocus="this.value=''" class="form-control" placeholder="Type here. ." />
+              <div class="error"></div>
+              <div class="success"></div>
             </div>
-            <button id="buttonGenerate" type="button" name="button" class="btn btn-lg btn-secondary btnGen">
+            <button id="buttonGenerate" type="button" name="button" class="btn btn-lg btn-dark btnGen">
               Generate QR Code
             </button>
           </form>
@@ -81,10 +86,11 @@
     </form>
     </div>
     </div>
-  </main>
 
+
+  </main>
   <!-- Copyright -->
-  <div class="footer text-center py-3 bg-secondary">&copy;
+  <div class="footer text-center py-1 bg-secondary">&copy;
     <script>
       document.write(new Date().getFullYear());
     </script>
