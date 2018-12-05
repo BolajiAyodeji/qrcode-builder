@@ -1,3 +1,10 @@
+/***********************************
+************************************
+    QR CODE BUILDER
+    Copyright 2018 Bolaji Ayodeji.
+************************************
+************************************/
+
 (function () {
   'use strict';
 
@@ -11,8 +18,8 @@
     console.log('click');
     let message = $('#qrCodeMessage').val();
     if (message === '' || null) {
-      $(".error").text("Enter some Text or Link?").show();
-      $(".success").text("").reset();
+      $(".error").text("Enter some Text or Link!").show();
+      $(".success").text("").show();
 
     } else if (message.length > 0) {
       $(".success").text("QR Code Generated!").show();
@@ -21,6 +28,7 @@
       $('#qrcode').html('').show();
       $('#qrcode').qrcode(message);
     }
+    let download = $('#downloadQr').val();
   });
 
 
