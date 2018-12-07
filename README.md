@@ -12,20 +12,16 @@ Demo here: [http://qrcode-builder.firebaseapp.com](http://qrcode-builder.firebas
 
 
 <p align="center">
- 
 <img src="https://raw.githubusercontent.com/BolajiAyodeji/qrcode-builder/master/screenshots/qrcode-builder.png" alt="Demo App">
-
-
 </p>
 
+## Contributors Guide
+Check [here](https://github.com/BolajiAyodeji/qrcode-builder/blob/master/CONTRIBUTING.md) for the Guide! :rocket:
 ## Author
 
 [Bolaji Ayodeji](http://github.com/bolajiayodeji)
 
 
-
 ## Licence
-
-
 
 MIT Licence
