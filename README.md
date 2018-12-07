@@ -24,4 +24,4 @@ Check [here](https://github.com/BolajiAyodeji/qrcode-builder/blob/master/CONTRIB
 
 ## Licence
 
-MIT Licence
+[MIT Licence](https://opensource.org/licenses/MIT)
