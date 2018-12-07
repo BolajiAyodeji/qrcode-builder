@@ -7,7 +7,7 @@ Demo here: [http://qrcode-builder.firebaseapp.com](http://qrcode-builder.firebas
 
 ![screenshot](screenshots/qrcode-builder.png)
 
-##Author
+## Author
 
 [Bolaji Ayodeji](http://github.com/bolajiayodeji)
 
@@ -15,6 +15,6 @@ Demo here: [http://qrcode-builder.firebaseapp.com](http://qrcode-builder.firebas
 
 ## Licence
 
-MIT
 
-Licence
+
+MIT Licence
