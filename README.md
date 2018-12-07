@@ -11,7 +11,10 @@ Demo here: [http://qrcode-builder.firebaseapp.com](http://qrcode-builder.firebas
 
 
 <p align="center">
-![screenshot](screenshots/qrcode-builder.png)
+ 
+<img src="https://raw.githubusercontent.com/BolajiAyodeji/qrcode-builder/master/screenshots/qrcode-builder.png" alt="Demo App">
+
+
 </p>
 
 ## Author
